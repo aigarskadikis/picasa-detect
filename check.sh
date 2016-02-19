@@ -219,8 +219,6 @@ fi
 fi
 fi
 
-
-
 #set name
 name=$(echo "Picasa")
 
@@ -296,6 +294,8 @@ if [ $lines -gt 0 ]; then
 echo change log found:
 echo
 cat $tmp/change.log
+echo
+
 echo "$lastmodified">> $db
 echo "$version">> $db
 echo "$md5">> $db
