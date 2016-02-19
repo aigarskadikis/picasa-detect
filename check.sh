@@ -320,12 +320,13 @@ emails=$(cat ../posting | sed '$aend of file')
 printf %s "$emails" | while IFS= read -r onemail
 do {
 python ../send-email.py "$onemail" "$name $version" "$url 
-https://45a3f007e277247fd2383ed2f6d6a78a73117f1f.googledrive.com/host/0B_3uBwg3RcdVR2dSMmQzVWREYU0/$newfilename 
+https://0c53195112e2f6ecec4f01f0f753376ef704bf3c.googledrive.com/host/0B_3uBwg3RcdVOXF3Vkw0RG40bjg/$newfilename 
 $md5
 $sha1
 `cat $tmp/change.log`"
 } done
 echo
+
 
 else
 #changes.log file has created but changes is mission
