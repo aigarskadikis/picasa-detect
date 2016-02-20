@@ -323,6 +323,8 @@ python ../send-email.py "$onemail" "$name $version" "$url
 https://0c53195112e2f6ecec4f01f0f753376ef704bf3c.googledrive.com/host/0B_3uBwg3RcdVOXF3Vkw0RG40bjg/$newfilename 
 $md5
 $sha1
+
+Change log:
 `cat $tmp/change.log`"
 } done
 echo
